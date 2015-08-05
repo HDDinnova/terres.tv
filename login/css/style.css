@@ -1,0 +1,46 @@
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+
+.form-control{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img-circle{
+  max-height: 6rem;
+  max-width: 6rem;
+}
+
+textarea{
+  height: 200px;
+}
+
+.imgprincipal{
+    max-width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.referit h5{
+    text-align: left !important;
+}

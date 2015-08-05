@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /classes/
+Disallow: /css/
+Disallow: /js/
+Disallow: /lang/
+Disallow: /login/

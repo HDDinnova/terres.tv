@@ -1,0 +1,42 @@
+.navbar{
+  background-color: white !important;
+}
+
+.navbar-brand,.navbar-right{
+  color: black !important;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000 !important;
+}
+
+.container-fluid{
+    width: 40%;
+}
+
+.divider{
+    border-bottom: 1px #000 solid;
+    margin-bottom: 1.5rem;
+    margin-top: -10px;
+}
+
+.form{
+    width: 85%;
+    display: block;
+}
+
+.navbar-default .navbar-nav>li>a img{
+    height: 20px;
+    width: auto;
+    opacity: .5;
+}
+
+.navbar-nav>li>a img:hover{
+    opacity: 1;
+}
+
+.socialicon{
+    width: 30px !important;
+}
