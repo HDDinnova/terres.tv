@@ -47,7 +47,7 @@ $bd->close();
       <small><?=$lang['VIDEO']?> <strong><a href="#"><?=utf8_encode($v->getAutorVideo());?></a></strong></small>
       <p><?=utf8_encode($v->getDescripcio());?></p><br/>
       <div class="row blocsocial">
-          <a id="fb" href="<?='http://terres.tv/index.php?u='.urlencode(str_replace(',', '',$v->getTitol())).'-'.$v->getId()?>" data-image="<?='http://'.$_SERVER['SERVER_NAME']?>/media/<?=$v->getImatge()?>" data-title="<?=$v->getTitol()?>" data-desc="<?=  substr(utf8_encode($v->getDescripcio()),0,250)?>..." class="fb_share">
+          <a id="fb" href="<?='http://terres.tv/index.php?u='.urlencode(str_replace(',', '',$v->getTitol())).'-'.$v->getId()?>" data-image="<?='http://'.$_SERVER['SERVER_NAME']?>/media/<?=$v->getImatge()?>" data-title="<?=$v->getTitol()?>" data-desc="<?= htmlspecialchars(substr(utf8_encode($v->getDescripcio())),0,250)?>..." class="fb_share">
             <img src="media/icon_facebook_compartir.png" alt="" width="20px" height="20px">
           </a>
         <a class="twitter-share-button social" id="twitter_btn"
