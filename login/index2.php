@@ -230,7 +230,7 @@
                         <select class="form-control" id="pro1" name="pro1">
                             <option value=""></option>
                         <?php
-                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY titol ASC");
+                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY id DESC");
                         while ($p = $prom->fetch_array(MYSQLI_ASSOC)){ ?>
                             <option value="<?=$p['id']?>"><?=utf8_encode($p['titol'])?></option>
                         <?php } ?>    
@@ -243,7 +243,7 @@
                         <select class="form-control" id="pro2" name="pro2">
                             <option value=""></option>
                         <?php
-                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY titol ASC");
+                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY id DESC");
                         while ($p = $prom->fetch_array(MYSQLI_ASSOC)){ ?>
                             <option value="<?=$p['id']?>"><?=utf8_encode($p['titol'])?></option>
                         <?php } ?>    
@@ -256,7 +256,7 @@
                         <select class="form-control" id="pro3" name="pro3">
                             <option value=""></option>
                         <?php
-                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY titol ASC");
+                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY id DESC");
                         while ($p = $prom->fetch_array(MYSQLI_ASSOC)){ ?>
                             <option value="<?=$p['id']?>"><?=utf8_encode($p['titol'])?></option>
                         <?php } ?>    
@@ -269,7 +269,7 @@
                         <select class="form-control" id="pro4" name="pro4">
                             <option value=""></option>
                         <?php
-                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY titol ASC");
+                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY id DESC");
                         while ($p = $prom->fetch_array(MYSQLI_ASSOC)){ ?>
                             <option value="<?=$p['id']?>"><?=utf8_encode($p['titol'])?></option>
                         <?php } ?>    
@@ -282,7 +282,7 @@
                         <select class="form-control" id="pro5" name="pro5">
                             <option value=""></option>
                         <?php
-                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY titol ASC");
+                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY id DESC");
                         while ($p = $prom->fetch_array(MYSQLI_ASSOC)){ ?>
                             <option value="<?=$p['id']?>"><?=utf8_encode($p['titol'])?></option>
                         <?php } ?>    
@@ -295,7 +295,7 @@
                         <select class="form-control" id="pro6" name="pro6">
                             <option value=""></option>
                         <?php
-                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY titol ASC");
+                        $prom = $bd->query("SELECT id,titol FROM videos ORDER BY id DESC");
                         while ($p = $prom->fetch_array(MYSQLI_ASSOC)){ ?>
                             <option value="<?=$p['id']?>"><?=utf8_encode($p['titol'])?></option>
                         <?php } ?>    
